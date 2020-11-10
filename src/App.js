@@ -3,10 +3,7 @@ import './App.css';
 
 function App() {
 
-  const [count, setCount] = useState(() => {
-    console.log('count')
-    return 0
-  } )
+  const [count, setCount] = useState( 0 )
 
   function incrementCount() {
     setCount(prevCount => prevCount  + 1)
